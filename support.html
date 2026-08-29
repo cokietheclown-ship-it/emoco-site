@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emoco サポート</title>
+<style>
+  :root {
+    --bg: #eef5ff;
+    --card: #ffffff;
+    --accent: #6fa8ff;
+    --accent-soft: #dcebff;
+    --text: #33404f;
+    --text-soft: #6b7684;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    background: linear-gradient(180deg, var(--bg), #ffffff 60%);
+    color: var(--text);
+    line-height: 1.8;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .icon {
+    width: 76px;
+    height: 76px;
+    border-radius: 22px;
+    background: var(--accent-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0 auto 16px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 8px;
+  }
+  .lead {
+    color: var(--text-soft);
+    font-size: 15px;
+    margin: 0;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 20px;
+    padding: 28px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(80, 110, 160, 0.08);
+  }
+  .card h2 {
+    font-size: 17px;
+    margin: 0 0 12px;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .btn:active { opacity: 0.85; }
+  dl { margin: 0; }
+  dt {
+    font-weight: 600;
+    margin-top: 18px;
+  }
+  dt:first-child { margin-top: 0; }
+  dd {
+    margin: 6px 0 0;
+    color: var(--text-soft);
+    font-size: 14.5px;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 12.5px;
+    margin-top: 32px;
+  }
+  footer a { color: var(--text-soft); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="icon" aria-hidden="true">🙂</div>
+      <h1>Emoco サポート</h1>
+      <p class="lead">気持ちを一緒に育てるアプリ「Emoco」のサポートページです</p>
+    </header>
+
+    <div class="card">
+      <h2>お問い合わせ</h2>
+      <p>ご不明点・不具合報告・ご要望などは、メールにて承っております。</p>
+      <p><a class="btn" href="mailto:emoco.support@gmail.com">メールで問い合わせる</a></p>
+      <p style="font-size:13px; color:var(--text-soft); margin-top:16px;">
+        アプリ内の「⋯」メニュー → 「フィードバックを送る」からも同じ宛先に送信できます。
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>よくある質問</h2>
+      <dl>
+        <dt>記録したデータはどこに保存されますか？</dt>
+        <dd>端末内と、ご利用者ご自身のiCloud（プレミアムプランでiCloud同期が有効な場合）にのみ保存されます。開発者が運営するサーバーへ送信されることはありません。</dd>
+
+        <dt>プレミアムプランを解約したい</dt>
+        <dd>App Storeの「設定」→「（お名前）」→「サブスクリプション」からいつでも解約できます。解約後も、契約期間の終了日までは引き続きご利用いただけます。</dd>
+
+        <dt>カレンダー連携をやめたい</dt>
+        <dd>アプリ内の「⋯」メニュー→「カレンダー連携」からオフにできます。オフにすると、連携用に作成された専用カレンダーごと削除されます。</dd>
+
+        <dt>子どものデータを削除したい</dt>
+        <dd>「プロフィール」タブから対象のプロフィールを削除すると、記録・場面・カレンダーデータもすべて削除されます（元に戻せません）。</dd>
+      </dl>
+    </div>
+
+    <footer>
+      <p><a href="./privacy-policy.html">プライバシーポリシー</a></p>
+      <p>&copy; 2026 Emoco</p>
+    </footer>
+  </div>
+</body>
+</html>
